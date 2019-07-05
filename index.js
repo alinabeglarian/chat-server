@@ -3,6 +3,7 @@ const Sse = require('json-sse')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const db = require('./db')
+const Message = require('./message/model')
 
 // initialize the server
 const app = express()
