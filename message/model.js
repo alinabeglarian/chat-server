@@ -11,3 +11,5 @@ const Message = db.define(
   },
   { tableName: 'messages' }
 )
+
+module.exports = Message
